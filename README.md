@@ -74,4 +74,50 @@ The home can evaluate:
 Examples:
 - Artwork exposed to excessive sunlight  
 - Closets running too warm for networking equipment  
+- Humidity levels impacting instruments or furniture  
+
+---
+
+## 🧱 Architecture Overview (V1)
+
+- Custom Home Assistant integration
+- Local storage using HA-native Store (no helpers used as database)
+- Attachments via Media Source (`/media`)
+- Services for asset management
+- Sensors for environmental risk evaluation
+
+---
+
+## 🗂️ Example Asset (Conceptual)
+
+```yaml
+asset:
+  name: "Den Television"
+
+  area: den
+
+  linked_device: media_player.den_tv
+
+  labels:
+    - tv
+    - electronics
+    - insured
+
+  descriptions:
+    guest: "Main television in the den"
+    owner: "Upgraded during remodel"
+    insurance: "Samsung 75\" QLED, model XYZ"
+
+  operating_environment:
+    temperature:
+      min: 50
+      max: 95
+    humidity:
+      min: 20
+      max: 80
+
+  documents:
+    - type: receipt
+      uri: media-source://media_source/local/assets/den_tv/receipt.pdf
+- Closets running too warm for networking equipment  
 
