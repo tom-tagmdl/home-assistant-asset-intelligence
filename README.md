@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="banner_light" src="https://github.com/user-attachments/assets/e35ec7f1-e6b5-493f-9a27-799469b17dd1" />
 # Home Assistant Asset Intelligence
 
 **A Home Assistant custom integration that introduces “Assets” as a first-class concept — enabling homes to understand, monitor, and protect what they contain.**
