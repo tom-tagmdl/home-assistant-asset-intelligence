@@ -381,8 +381,6 @@ This use case demonstrates another dimension of Asset Intelligence:
 
 ## 🧭 Together with the artwork example…
 
-You now clearly show two halves of your system:
-
 | Domain            | What is protected        |
 | ----------------- | ------------------------ |
 | Artwork           | Value + preservation     |
@@ -392,11 +390,6 @@ You now clearly show two halves of your system:
 
 ## ✅ The key idea
 
-Both stories reinforce:
-
 > The home is no longer reacting to conditions alone  
 > It is responding to the importance of what those conditions affect
-
-***
-
 > Whether preserving artwork or protecting infrastructure, Asset Intelligence enables the home to act with awareness of what truly matters.
